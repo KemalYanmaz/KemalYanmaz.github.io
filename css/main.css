@@ -5,10 +5,13 @@
     font-style: normal;
     font-weight: 400;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
-    background-color:transparent;
-    height:78px;
-    line-height: 78px;
+    background-color:rgba(0,0,0,0.3);
+    height:70px;
+    line-height: 70px;
     position:fixed;
     width: 100%;
     z-index:110;
@@ -34,6 +37,7 @@ header nav ul li a{
 header nav ul li a:hover,header nav ul li a:focus{
     color:white;
     text-decoration: none;
+    transition: all 0.3s ease-in;
 }
 #mainContent{
     background: url('../img/BG.png');
@@ -62,7 +66,7 @@ header nav ul li a:hover,header nav ul li a:focus{
     font-weight: bold;
     margin-bottom:43px;
 }
-#Services{
+#services{
     background-color:#cbcbcb;
     padding-top:50px;
     padding-bottom:50px;
