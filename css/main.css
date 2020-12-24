@@ -42,9 +42,9 @@ header nav ul li a:hover,header nav ul li a:focus{
 #mainContent{
     background: url('../img/BG.png');
     background-repeat: no-repeat;
-    background-position: top;
+    background-attachment: fixed;
+    background-position: top; 
     width: 100%;
-    background-size: auto;
 }
 .mainArea{
     padding-top: 200px;
